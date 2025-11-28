@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin's Portfolio</title>
+    <link rel="stylesheet" href="justin.css">
+</head>
+<body>
+    <!-- Login/Register Container -->
+    <div id="auth-container">
+        <div id="login-form" class="auth-form">
+            <h1>Login</h1>
+            <input type="text" id="login-username" placeholder="Username" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button id="login-btn">Login</button>
+            <p id="login-message"></p>
+            <p>Wala pang account? <a href="#" id="show-register">Please register here</a></p>
+        </div>
+        
+        <div id="register-form" class="auth-form" style="display: none;">
+            <h1>Register</h1>
+            <input type="text" id="register-username" placeholder="Username" required>
+            <input type="password" id="register-password" placeholder="Password" required>
+            <input type="password" id="register-confirm-password" placeholder="Confirm Password" required>
+            <button id="register-btn">Register</button>
+            <p id="register-message"></p>
+            <p>Meron nang account? <a href="#" id="show-login">Login here</a></p>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" style="display: none;">
+        <button id="exit-btn">Log out</button>
+
+        <h1>Welcome To Justin's First Portfolio</h1>
+        <img src="583333737_122189292368340569_5838686563507867157_n.jpg" alt="My Portfolio Image" class="profile-img">
+
+        <p>Hello! I am Justin Kim P. Inocencio, 18 years old. Know more about me!</p>
+        
+        <p>I like Cars and Motors. My dream is to become a good mechanic and own a shop where I can fix and customize cars and motors, and also own a car like Toyota Corolla big body or the AE86 Trueno, and a GTR R34.</p>
+
+        <h1>About Me</h1>
+        <ul>
+            <li>Full Name: Justin Kim P. Inocencio</li>
+            <li>Age: 18 years old</li>
+            <li>Birthday: March 10, 2007</li>
+            <li>Address: Purok-9, Calamba Cabadbaran City, Agusan Del Norte</li>
+            <li>Hobbies: Playing sports, Sleeping, Watching anime</li>
+            <li>Favorite Foods: Ginamos, Lechon, Adobo</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: .......</li>
+            <li>Project 2: Sorry, I have none yet</li>
+        </ul>
+
+        <h2>Contact Info</h2>
+        <ul>
+            <li>Facebook: Justin Kim Plazo Inocencio</li>
+            <li>Phone Number: 09764514492</li>  
+        </ul>
+
+        <h2>Thank You For Visiting My Website!!!</h2>
+    </div>
+
+    <script src="justin.js"></script>
+</body>
+</html>
